@@ -78,7 +78,7 @@ class Home extends React.Component {
         Phasellus nec iaculis mauris. Phasellus nec iaculis mauris. <a>@bulmaio</a>.
         <br />
       </div>
-        <a class="button is-info is-large">Get a free Quote</a>
+        <a class="button is-info is-large">Get A Free Quote</a>
       </div>
       </div>
       </div>
