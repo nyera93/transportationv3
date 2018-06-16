@@ -2,7 +2,7 @@ import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import Home from './../Home'
 import Career from './../Career'
-import CareerPost from './../blog/CareerPost'
+import CareerPage from './../career/CareerPage'
 import Contact from './../Contact'
 import About from './../About'
 import Track from './../Track'
@@ -13,7 +13,7 @@ const Router = () => (
   <Switch>
     <Route exact path='/' component={Home}/>
     <Route exact path='/career' component={Career}/>
-    <Route path='/blog/:CareerPost' component={CareerPost}/>
+    <Route path='/career/:CareerPage' component={CareerPage}/>
     <Route exact path='/contact' component={Contact}/>
     <Route exact path='/about' component={About}/>
     <Route exact path='/track' component={Track}/>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import CareerItem from './blog/CareerItem'
+import CareerItem from './career/CareerItem'
 import PageHeader from './../components/PageHeader'
 import PageContent from './../components/PageContent'
 import Layout from './Layout.js'

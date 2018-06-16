@@ -1,5 +1,5 @@
 import React from 'react'
-import CareerItem from './blog/CareerItem'
+import CareerItem from './career/CareerItem'
 
 import PageHeader from './../components/PageHeader'
 import PageContent from './../components/PageContent'

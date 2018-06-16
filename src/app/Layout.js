@@ -13,8 +13,8 @@ const Layout = ({ children }) => (
     <Helmet
       title="Transportation"
       meta={[
-        { name: 'description', content: 'Aaron Klaser\'s personal wedsite, portfolio, blog, tutorials, and just cool $h!t' },
-        { name: 'keywords', content: 'resume, blog, porfolio, tutorials, aaron klaser' },
+        { name: 'description', content: 'Nyera Eldomiaty\'s' },
+        { name: 'keywords', content: 'Nyera Eldomiaty' },
       ]}
       script={[
           { 'src': 'https://use.fontawesome.com/releases/v5.0.4/js/all.js'},
