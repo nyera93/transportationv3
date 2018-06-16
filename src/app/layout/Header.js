@@ -38,7 +38,7 @@ class Header extends React.Component {
                src="https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAU3AAAAJGE1MzYxNzYzLTE1NTUtNDEyYi04MzRjLTgzZjNkOGU0MGIzNg.jpg"
                width="30px"
                alt="" />
-             <span>Reliable Transportation</span>
+             <span>Transportation</span>
            </NavLink>
 
              <button className="button navbar-burger" onClick={this.toggleNav}>

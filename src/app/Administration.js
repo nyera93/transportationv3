@@ -13,7 +13,6 @@ class Administration extends React.Component {
       <Layout>
       <div>
       <PageHeader color="is-info" title="Careers / Administration">
-  Your standard <strong>JavaScript</strong> programming Career, albeit, probably not very good, but I will at least try to keep it entertaining. This Career is a chronological mix of random posts on Angular, React, Functional Programming, and my <strong>project walkthroughs</strong>.
   </PageHeader>
         <br/>
 

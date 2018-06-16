@@ -14,7 +14,7 @@ class Home extends React.Component {
       <br />
       <br />
       <br />
-    <h1 class="title is-1 is-large has-text-centered">Reliable Transportation</h1>
+    <h1 class="title is-1 is-large has-text-centered">Transportation</h1>
     </div>
     <br />
     <div class="subtitle has-text-centered">

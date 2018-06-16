@@ -3,10 +3,10 @@ import PageContent from '../../components/PageContent'
 import CareerNav from './shared/CareerNav'
 
 
-const CareerPost = () => (
+const CareerPage = () => (
   <PageContent>
     <CareerNav to="/career" />
 
   </PageContent>
 )
-export default CareerPost
+export default CareerPage
