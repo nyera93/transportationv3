@@ -9,6 +9,7 @@ import Track from './../Track'
 import Quote from './../Quote'
 import Mechanic from './../Mechanic'
 import Administration from './../Administration'
+
 const Router = () => (
   <Switch>
     <Route exact path='/' component={Home}/>

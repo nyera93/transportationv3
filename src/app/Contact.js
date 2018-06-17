@@ -2,11 +2,16 @@ import React from 'react'
 import Header from './layout/Header'
 import PageHeader from './../components/PageHeader'
 import Layout from './Layout'
-
+import { Component } from 'react';
+// import the Google Maps API Wrapper from google-maps-react
+import { GoogleApiWrapper } from 'google-maps-react'
+// import child component
+import Container from './utils/Container'
 class Contact extends React.Component {
   render() {
     return (
       <Layout>
+
       <div>
       <PageHeader color="is-info" title="Contact">
       </PageHeader>
@@ -91,9 +96,9 @@ class Contact extends React.Component {
     </div>
   </div>
   <div class="card-image">
-   <figure class="image is-4by3">
-     <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"></img>
-   </figure>
+
+    <Container google={this.props.google} />
+
  </div>
 </div>
 </div>
@@ -102,4 +107,6 @@ class Contact extends React.Component {
     )
   }
 }
-export default Contact
+export default GoogleApiWrapper({
+  apiKey: 'AIzaSyAyesbQMyKVVbBgKVi2g6VX7mop2z96jBo',
+})(Contact)
