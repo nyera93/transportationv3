@@ -3,6 +3,9 @@ import Header from './layout/Header'
 import PageHeader from './../components/PageHeader'
 import Layout from './Layout'
 import pageloader from '../index.scss'
+import { Route } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+
 class Home extends React.Component {
 
 
@@ -78,7 +81,7 @@ class Home extends React.Component {
         Phasellus nec iaculis mauris. Phasellus nec iaculis mauris. <a>@bulmaio</a>.
         <br />
       </div>
-        <a class="button is-info is-large">Get A Free Quote</a>
+          <NavLink to='/quote' class="button is-info is-large" >Get A Free Quote</NavLink>
       </div>
       </div>
       </div>
@@ -107,7 +110,7 @@ class Home extends React.Component {
       Phasellus nec iaculis mauris. Phasellus nec iaculis mauris. <a>@bulmaio</a>.
       <br />
     </div>
-      <a class="button is-info is-large">Apply Online</a>
+      <NavLink to='/career' class="button is-info is-large" >Apply Online</NavLink>
     </div>
     </div>
     </div>
@@ -176,7 +179,7 @@ class Home extends React.Component {
     Phasellus nec iaculis mauris. Phasellus nec iaculis mauris. <a>@bulmaio</a>.
     <br />
   </div>
-    <a class="button is-info is-large">Learn More</a>
+      <NavLink to='/about' class="button is-info is-large" >Learn More</NavLink>
   </div>
   </div>
   </div>
@@ -205,7 +208,7 @@ class Home extends React.Component {
   Phasellus nec iaculis mauris. Phasellus nec iaculis mauris. <a>@bulmaio</a>.
   <br />
 </div>
-  <a class="button is-info is-large">Contact Us</a>
+    <NavLink to='/contact' class="button is-info is-large" >Contact Us</NavLink>
 </div>
 </div>
 </div>
